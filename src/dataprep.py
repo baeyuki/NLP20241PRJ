@@ -11,7 +11,7 @@ def read_data(file_path):
     encoding = detect_encoding(file_path)
     data = pd.read_excel(file_path)
     return data
-
+####
 def load_datasets():
     train_file = 'C:/Users/thanh/Documents/NLP20241PRJ-1/data/train.xlsx'
     test_file = 'C:/Users/thanh/Documents/NLP20241PRJ-1/data/test.xlsx'
